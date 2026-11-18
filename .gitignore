@@ -1,0 +1,32 @@
+# Dependencies
+/vendor/
+composer.phar
+
+# Application Logs & Cache
+/storage/logs/*.log
+!storage/logs/.gitignore
+!storage/logs/.gitkeep
+
+# Environment & Local Secrets
+.env
+.env.*
+!.env.example
+
+# Operating System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# IDE & Editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# Temp files
+*.tmp
+*.bak
+test_*.php
